@@ -6,4 +6,4 @@
 2) You can move and eat pieces by clicking on the desired piece square then clicking on the target square.
 3) Win: The first player that has two game pieces on the opponent starting row is the winner.
 
-
+![Login](startGame.JPG)
