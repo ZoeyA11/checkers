@@ -1,0 +1,45 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#board .tile {
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+#board .black-tile {
+    background-color: #000000;
+}
+
+#board .black-tile:focus {
+    outline: red;
+    background-color: red;
+}
+
+#board .white-tile {
+    background-color: #ffffff;
+}
+.button {
+    background-color: #000000;
+    text-align: center;
+    image-rendering: auto;
+} 
+.button:focus {
+    background-color: #a52a2a;
+    text-align: center;
+    image-rendering: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
